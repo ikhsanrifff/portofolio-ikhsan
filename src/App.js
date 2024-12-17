@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <header>
       <nav className="navbar">
-        <div className="logo">MyWebsite</div>
+        <div className="logo">Ikhsan Rifansyah</div>
         <ul className={isOpen ? "nav-links open" : "nav-links"}>
           <div className="close" onClick={exitMenu}>
           <div>X</div>
@@ -35,7 +35,10 @@ function App() {
 
       <section>
         <div id='profile' className='profile'>
-
+          <div>Profil</div>
+          <div>Pengalaman</div>
+          <div>Pendidikan</div>
+          <div>Keahlian</div>
         </div>
 
       </section>
