@@ -176,18 +176,22 @@ input:checked + .slider:before {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  height: max-content;
+  width: 100%;
   background-color: white;
   color: #000000;
   padding: 10px;
-  height: 10rem;
+  height: auto;
 }
+
 .bg-portofolio-dark {
-  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
   background-color: #434343;
   color: #ffffff;
   padding: 10px;
-  height: 10rem;
+  height: auto;
 }
 
 .profile {
@@ -234,6 +238,7 @@ input:checked + .slider:before {
 
 section {
   width: 100%;
+  height: 500px;
   display: flex;
   flex-direction: column;
 }
