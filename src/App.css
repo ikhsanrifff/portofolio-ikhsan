@@ -206,6 +206,8 @@ input:checked + .slider:before {
   padding: 8px;
 }
 .profile-dark {
+  
+  gap: 10px;
   width: 100%;
   height: max-content;
   background-color: #333;
