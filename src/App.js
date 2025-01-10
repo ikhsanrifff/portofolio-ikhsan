@@ -66,9 +66,16 @@ function App() {
               About Me
             </h1>
           </div>
-          <div>Pengalaman</div>
-          <div>Pendidikan</div>
-          <div>Keahlian</div>
+          <div className={isDarkMode ? "experience-dark" : "experience"}>
+            <h1>
+              Experience
+            </h1>
+          </div>
+          <div className={isDarkMode ? "skill-dark" : "skill"}>
+            <h1>
+              Skill
+            </h1>
+          </div>
         </div>
       </section>
 
