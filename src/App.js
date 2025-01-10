@@ -32,9 +32,9 @@ function App() {
             </label>
           </div>
           <ul className={isOpen ? "nav-links open" : "nav-links"}>
-            <div className="close" onClick={exitMenu}>
+            {/* <div className="close" onClick={exitMenu}>
               <div>X</div>
-            </div>
+            </div> */}
             <li><a href="/App.js">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="/services">Services</a></li>
@@ -58,7 +58,7 @@ function App() {
               Frontend Developer.
             </h3>
             <p>
-              A frontend developer specializing in building website digital. Based in Bandung, Indonesia.
+              Hi! I'm a frontend developer specializing in building website digital. Based in Bandung, Indonesia.
             </p>
           </div>
           <div className={isDarkMode ? "aboutme-dark" : "aboutme"}>
