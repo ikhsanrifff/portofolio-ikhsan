@@ -35,10 +35,10 @@ function App() {
             {/* <div className="close" onClick={exitMenu}>
               <div>X</div>
             </div> */}
-            <li><a href="/App.js">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skill">Skill</a></li>
           </ul>
           <div className="burger" onClick={toggleMenu}>
             <div className="line1"></div>
@@ -61,7 +61,7 @@ function App() {
               Hi! I'm a frontend developer specializing in building website digital. Based in Bandung, Indonesia.
             </p>
           </div>
-          <div className={isDarkMode ? "aboutme-dark" : "aboutme"}>
+          <div id='aboutme' className={isDarkMode ? "aboutme-dark" : "aboutme"}>
             <h1>
               About Me
             </h1>
@@ -79,7 +79,7 @@ function App() {
               <li>Tailwind</li>
             </ul>
           </div>
-          <div className={isDarkMode ? "experience-dark" : "experience"}>
+          <div id='experience' className={isDarkMode ? "experience-dark" : "experience"}>
             <h1>
               Experience
             </h1>
@@ -102,7 +102,7 @@ function App() {
               <li>Collaborated with team members to deliver projects on time.</li>
             </ul>
           </div>
-          <div className={isDarkMode ? "skill-dark" : "skill"}>
+          <div id='skill' className={isDarkMode ? "skill-dark" : "skill"}>
             <h1>
               Skill
             </h1>
